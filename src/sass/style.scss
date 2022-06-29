@@ -1,0 +1,13 @@
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+	font-family: 'MuseoModerno', cursive;
+}
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+@import 'blocks/promo';
