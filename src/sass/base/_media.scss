@@ -1,0 +1,188 @@
+//------------------------ от 992px
+@media (max-width: 1200px){
+
+}
+
+//------------------------от 786px 
+@media (max-width: 992px){
+	.container{
+		max-width: 700px;
+	}
+	.title{
+		&_main{
+			font-size: 25px;
+		}
+		&_left{
+			font-size: 27px;
+		}
+	}
+	.header{
+		max-height: 35px;
+		&__logo{
+			max-width: 175px;
+		}
+		&__official{
+			font-size: 10px;
+			span{
+				font-size: 15px;
+			}
+		}
+		&__phone{
+			font-size: 15px;
+		}
+	}
+	.promo{
+		min-height: 620px;
+		padding: 21px 0 23px 0;
+		&__header{
+			font-size: 33px;
+		}
+		&__subheader{
+			font-size: 17px;
+		}
+		&__icon{
+			width: 119px;
+			font-size: 12px;
+		}
+		&__link{
+			font-size: 13px;
+		}
+	}
+	.benefits{
+		padding: 55px 0 70px 0;
+		&__wrapper{
+			margin-top: 40px;
+		}
+		&__item{
+			width: 200px;
+		}
+	}
+	.consultation{
+		padding: 84px 0 92px;
+		&__descr{
+			font-size: 17px;
+		}
+	}
+}
+// ------------------------от 576px
+@media (max-width: 767px){
+	.container{
+		max-width: 525px;
+	}
+	.title{
+		&_main{
+			font-size: 22px;
+		}
+		&_left{
+			font-size: 24px;
+			line-height: 43px;
+		}
+	}
+	.header{
+		&__official{
+			display: none;
+		}
+	}
+	.promo{
+		min-height: 575px;
+		padding: 25px 0 21px 0;
+		&__header{
+			font-size: 27px;
+		}
+		&__subheader{
+			font-size: 14px;
+		}
+		&__icons{
+			width: 350px;
+		}
+		&__link{
+			font-size: 11px;
+		}
+	}
+	.benefits{
+		&__wrapper{
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		&__item{
+			width: 213px;
+		}
+		&__item:first-child{
+			margin-right: 50px;
+		}
+		&__item:last-child{
+			margin-top: 30px;
+		}
+		&__label{
+			margin-top: 20px;
+		}
+		&__descr{
+			margin-top: 10px;
+		}
+	}
+	.consultation{
+		&__descr{
+			font-size: 14px;
+			line-height: 24px;
+		}
+	}
+}
+@media (max-width: 575px){
+	.container{
+		max-width: 314px;
+	}
+	.title{
+		&_main{
+			font-size: 20px;
+		}
+		&_left{
+			font-size: 20px;
+			line-height: 31px;
+		}
+	}
+	.header{
+		&__logo{
+			max-width: 147px;
+		}
+	}
+	.promo{
+		min-height: 504px;
+		&__wrapper{
+			margin-top: 68px;
+		}
+		&__header{
+			text-align: right;
+			font-size: 22px;
+		}
+		&__subheader{
+			font-size: 12px;
+		}
+		&__icons{
+			justify-content: right;
+		}
+		&__icon{
+			width: 94px;
+			font-size: 10px;
+			margin-bottom: 45px;
+			img{
+				margin-bottom: 11px;
+			}
+		}
+	}
+	.benefits {
+		&__item:first-child {
+			margin-right: 0px;
+		}
+		&__item:not(:first-child) {
+			margin-top: 30px;
+		}
+	}
+	.consultation {
+		min-height: 590px;
+		padding: 64px 0 80px 0;
+		&__descr {
+			line-height: 21px;
+			font-size: 12px;
+		}
+	}
+}

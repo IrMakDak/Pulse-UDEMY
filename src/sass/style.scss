@@ -1,8 +1,9 @@
 @import 'base/variables';
 @import 'base/mixins';
 
+
 * {
-	font-family: 'MuseoModerno', cursive;
+	font-family: 'MuseoModerno', sans-serif;
 }
 
 .container {
@@ -10,4 +11,13 @@
 	margin: 0 auto;
 }
 
+@import 'blocks/titles';
+@import 'blocks/forms';
 @import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/benefits';
+@import 'blocks/consultation';
+@import 'blocks/buttons';
+@import 'blocks/carousel';
+
+@import 'base/media';
