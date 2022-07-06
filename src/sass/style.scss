@@ -7,6 +7,7 @@
 }
 
 .container {
+	position: relative;
 	max-width: 950px;
 	margin: 0 auto;
 }
@@ -19,5 +20,6 @@
 @import 'blocks/consultation';
 @import 'blocks/buttons';
 @import 'blocks/carousel';
+@import 'blocks/catalog';
 
 @import 'base/media';
