@@ -1,4 +1,4 @@
-.catalog {
+.catalog{
 	padding-bottom: 80px;
 	padding-top: 81px;
 	&__tabs {
@@ -76,7 +76,7 @@
 			font-size: 14px;
 			text-align: center;
 		}
-		&__link {
+		&__link, &__link-back{
 			display: block;
 			margin: 0 auto;
 			margin-top: 10px;
@@ -89,6 +89,10 @@
 				text-decoration: none;
 				color: $main-color;
 			}
+		}
+		&__link-back{
+			left: 50%;
+			margin-top: 70px;
 		}
 		&__footer {
 			display: flex;
@@ -110,12 +114,6 @@
 				font-weight: 700;
 				font-size: 20px;
 			}
-		}
-		&__back-side {
-			padding-left: 0px;
-			height: 290px;
-			margin-bottom: 0px;
-			list-style-type: none;
 		}
 		&__card {
 			font-weight: 300;
@@ -144,6 +142,10 @@
 			margin-left: 0px;
 			padding-left: 0px;
 			transform: translateX(0%);
+			padding-left: 0px;
+			height: 290px;
+			margin-bottom: 0px;
+			list-style-type: none;
 			&_active {
 				width: 50%;
 				margin-left: 10px;
@@ -157,6 +159,7 @@
 				color: #555555;
 				&:before{
 					content: '';
+					overflow: visible;
 					display: block;
 					position: absolute;
 					height: 5px;
@@ -166,6 +169,17 @@
 					top: 8px;
 				}
 			}
+		}
+	}
+	.catalog__more {
+		display: block;
+		background-color: red;
+		cursor: pointer;
+		color: $main-color;
+		text-decoration: underline;
+		display: none;
+		&:hover{
+			text-decoration: none;
 		}
 	}
 }

@@ -1,4 +1,4 @@
-.feed-form {
+.feed-form {  
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -17,5 +17,8 @@
 		&:not(:nth-child(3)){
 			margin-bottom: 12px;
 		}
+	}
+	&_mt25 {
+		margin-top: 26px;
 	}
 }

@@ -19,6 +19,7 @@
 		max-width: 700px;
 	}
 	.title{
+		font-size: 26px;
 		&_main{
 			font-size: 25px;
 		}
@@ -68,9 +69,47 @@
 		}
 	}
 	.consultation{
-		padding: 84px 0 92px;
+		min-height: 633px;
+		padding: 70px 0 70px 0;
 		&__descr{
 			font-size: 17px;
+		}
+	}
+	.carousel{
+		padding: 51px 0;
+	}
+	.catalog{
+		padding-top: 5px;
+		padding-bottom: 58px;
+
+		&__tabs{
+			margin-top: 32px;
+		}
+		&__tab{
+			height: 47px;
+			width: 170px;
+			font-size: 16px;
+			line-height: 44px;
+		}
+		&__content{
+			padding-top: 47px;
+		}
+	}
+	.footer{
+		&__info{
+			width: 365px;
+			height: 210px;
+		}
+		address{
+			font-size: 18px;
+			margin-top: 33px;
+		}
+		a{
+			font-size: 18px;
+			margin-top: 21px;
+		}
+		.footer__social_item{
+
 		}
 	}
 }
@@ -79,13 +118,21 @@
 	.container{
 		max-width: 525px;
 	}
+	.button{
+		&_mini{
+			width: 96px;
+			height: 33px;
+		}
+	}
 	.title{
+		font-size: 23px;
 		&_main{
 			font-size: 22px;
 		}
 		&_left{
-			font-size: 24px;
-			line-height: 43px;
+			margin-left: 20px;
+			font-size: 20px;
+			line-height: 30px;
 		}
 	}
 	.header{
@@ -115,25 +162,116 @@
 			justify-content: center;
 		}
 		&__item{
-			width: 213px;
+			width: 217px;
 		}
 		&__item:first-child{
 			margin-right: 50px;
 		}
 		&__item:last-child{
-			margin-top: 30px;
+			margin-top: 10px;
 		}
 		&__label{
-			margin-top: 20px;
+			margin-top: 10px;
+			font-size: 16px;
 		}
 		&__descr{
 			margin-top: 10px;
+			font-size: 13px;
 		}
 	}
 	.consultation{
 		&__descr{
 			font-size: 14px;
 			line-height: 24px;
+			margin-left: 20px;
+		}
+	}
+	.carousel{
+		.tns-nav {
+			display: block;
+
+		}
+	}
+	.feed-form{
+		margin-left: 20px;
+	}
+	.catalog{
+		&__tab{
+			height: 37px;
+			width: 138px;
+			font-size: 13px;
+			line-height: 35px;
+		}
+		.catalog-item{
+			min-height: 391px;
+			width: 244px;
+			// padding: 20px 10px 13px 14px;
+			&__back{
+				margin-left: 14px;
+				padding-right: 17px;
+			}
+			&__card{
+				&:before{
+					left: -13px;
+				}
+			}
+			&__wrapper{
+				overflow: hidden;
+			}
+			img{
+				max-width: 55%;
+			}
+			hr{
+				margin: 6px 0;
+			}
+			&__subtitle{
+				font-size: 14px;
+			}
+			&__descr{
+				margin-top: 5px;
+			}
+			&__prices{
+				span{
+					font-size: 17px;
+				}
+			}
+			&__link-back{
+				margin-top: 0;
+				transform: translate(-8%, 30%);
+			}
+		}
+	}
+	.reviews{
+		&__wrapper{
+			margin-top: 47px;
+		}
+		.reviews-text{
+			margin-left: 21px;
+			&__descr{
+				font-size: 13px;
+				p{
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	.footer{
+		&__info{
+			width: 297px;
+			height: 186px;
+		}
+		address{
+			font-size: 15px;
+		}
+		a{
+			font-size: 16px;
+			margin-top: 15px;
+		}
+		&__social{
+			&_item{
+				width: 45px;
+				height: 45px;
+			}
 		}
 	}
 }
@@ -158,6 +296,10 @@
 		&_left{
 			font-size: 20px;
 			line-height: 31px;
+			margin-left: 4px;
+		}
+		&_thin{
+			font-size: 19px;
 		}
 	}
 	.header{
@@ -190,6 +332,10 @@
 		}
 	}
 	.benefits {
+		padding: 50px 0 54px 0;
+		&__wrapper{
+			margin-top: 23px;
+		}
 		&__item:first-child {
 			margin-right: 0px;
 		}
@@ -198,11 +344,35 @@
 		}
 	}
 	.consultation {
-		min-height: 590px;
-		padding: 64px 0 80px 0;
+		min-height: 540px;
+		padding: 64px 0 53px 0;
 		&__descr {
 			line-height: 21px;
+			margin-left: 4px;
 			font-size: 12px;
+		}
+	}
+	.feed-form{
+		margin-left: 4px;
+	}
+	.catalog{
+		// .link_more{
+		// 	display: block;
+		// }
+		&__tabs{
+			margin-top: 27px;
+		}
+		&__tab{
+			font-size: 10px;
+		}
+		&__content{
+			justify-content: center;
+			padding-top: 30px;
+			}
+		}
+	.catalog-item{
+		&:not(:first-child), &:not(){
+			display: none;
 		}
 	}
 }
