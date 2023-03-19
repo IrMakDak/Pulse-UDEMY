@@ -15,10 +15,10 @@
 ---
 
 ### Install
+[download PHPMailer as a zip file](https://github.com/PHPMailer/PHPMailer/archive/master.zip)
 ```
 git clone https://github.com/IrMakDak/Pulse-UDEMY.git
 npm i
-[download PHPMailer as a zip file](https://github.com/PHPMailer/PHPMailer/archive/master.zip)
 npx gulp
 ```
 
