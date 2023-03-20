@@ -37,6 +37,13 @@ npx gulp
 
 ---
 
+### Screenshots:
+<img width="1493" alt="Screenshot 2023-03-20 at 12 35 15" src="https://user-images.githubusercontent.com/54810215/226328198-12af63ec-a47e-4895-a035-0e0ad0e168e8.png">
+
+<img width="1154" alt="Screenshot 2023-03-20 at 12 35 36" src="https://user-images.githubusercontent.com/54810215/226328229-af0c1556-9974-4376-9c37-189cddfd097e.png">
+
+---
+
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/ir-makedonskaya-ximkd/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
